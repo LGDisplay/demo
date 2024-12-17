@@ -11,7 +11,7 @@
         <div class="scoring-container">
             <div class="contestant-section">
                 <div>
-                    <label><b>평자가:</b></label>
+                    <h2>평자가</h2>
                     <select id="judgeNameInput" class="judge-select">
                         <option value="">평가자 선택</option>
                         <option value="최인관 법인">최인관 법인장</option>
@@ -28,26 +28,26 @@
                 <img id="contestantImage" src="https://via.placeholder.com/250x300" alt="" class="contestant-image">
             </div>
 
-            <div class="scoring-section">
+            <div class="scoring-section" style="margin-top: 50px;">
                 <div>
-                    <label>Idea 발굴 관점</label>
+                    <label style="color: blue ; font-size: 25px; font: bold;">Idea 발굴 관점</label>
                     <input type="number" id="innovationScore" min="0" max="40" class="score-input" placeholder="Idea 발굴 관점 (0-40)">
                     <div id="innovationError" class="error-message"></div>
                 </div>
 
                 <div>
-                    <label>실효과 평가</label>
+                    <label style="color: rgb(0, 255, 0) ; font-size: 25px; font: bold;" >실효과 평가</label>
                     <input type="number" id="presentationScore" min="0" max="30" class="score-input" placeholder="실효과 평가 (0-30)">
                     <div id="presentationError" class="error-message"></div>
                 </div>
 
                 <div>
-                    <label>Biz 파급 효과 관점</label>
+                    <label style="color: red ; font-size: 25px; font: bold;">Biz 파급 효과 관점</label>
                     <input type="number" id="technicalScore" min="0" max="30" class="score-input" placeholder="Biz 파급 효과 관점 (0-30)">
                     <div id="technicalError" class="error-message"></div>
                 </div>
 
-                <div class="total-score">
+                <div class="total-score" style="font-size:  25px;">
                     총 점수: <span id="totalScore">0</span>
                 </div>
             </div>
